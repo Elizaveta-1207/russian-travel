@@ -1,0 +1,9 @@
+@import url(./__links/nav__links.css);
+@import url(./__list/nav__list.css);
+@import url(./__link/nav__link.css);
+
+@media screen and (max-width:767px) {
+    .nav {
+        margin-bottom: 48px;
+    }
+}

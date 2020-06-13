@@ -1,0 +1,41 @@
+.header {
+    /* width: 100%; */
+    /*! padding-top 28px изменится только для экрана 320px
+    padding-bottom 57px только у экранов больше 1280px */
+    padding: 28px 0 57px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1184px;
+}
+
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .header {
+        /*относительная величина для header рассчитаная по самому большому расширению:
+        (1184px*100%) / 1280px  = 92.5%
+        столько занимает 1184px в 1280px
+        соответственно запишем относительную велицину для экранов от 1024px до 1279px *
+        max-width: 92.5%;
+    }
+} */
+
+@media screen and (max-width:1279px) {
+    .header {
+        padding: 28px 48px 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 28px 24px 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 48px;
+    }
+}

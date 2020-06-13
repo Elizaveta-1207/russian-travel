@@ -1,0 +1,11 @@
+.lang__link_chosen {
+    /* text-decoration: underline; */
+    /*border-bottom смотрится симпатичнее*/
+    border-bottom: 2px solid currentColor;
+}
+
+@media screen and (max-width: 767px) {
+    .lang__list_chosen {
+        border-bottom: 1px solid currentColor;
+    }
+}

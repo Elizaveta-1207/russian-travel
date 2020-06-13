@@ -1,0 +1,43 @@
+.cover__background {
+    text-decoration: none;
+    color: #fff;
+    background-image: url("../../../images/cover-background.jpg");
+    background-size: cover;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-position: center;
+    max-width: 100%;
+    /* min-height: 740px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*прописываю относительный паддинг для нашего контента внутри контейнера cover,
+    чтобы расстояние от заголовка и подзаголовка */
+    padding: 21% 0;
+}
+
+@media screen and (max-width:1279px) {
+    .cover__background {
+        padding: 19% 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .cover__background {
+        padding: 15% 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cover__background {
+        padding: 10% 0;
+    }
+}
+
+/* @media screen and (max-width:424px) {
+    .cover__background {
+        padding: 21% 0;
+    }
+} */

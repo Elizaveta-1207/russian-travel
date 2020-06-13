@@ -1,0 +1,19 @@
+.nav__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width:767px) {
+    .nav__links {
+        flex-direction: column;
+        /* align-content: center; */
+        /* align-items: center; */
+    }
+
+    .nav__links :last-child {
+        /*убираем внешний нижний отступ*/
+        margin-bottom: 0;
+    }
+}
