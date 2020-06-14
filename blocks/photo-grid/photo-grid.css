@@ -1,46 +1,47 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-    display: grid;
-    /* grid-template-columns: repeat(4, minmax(284px, 1fr));
+  display: grid;
+  /* grid-template-columns: repeat(4, minmax(284px, 1fr));
     grid-template-rows: repeat(3, minmax(213px, 1fr)); */
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    /* grid-template-rows: repeat(auto-fit, 1fr); */
-    grid-gap: 16px;
-    max-width: 1184px;
-    margin: 0 auto 92px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, 1fr); */
+  grid-gap: 16px;
+  max-width: 1184px;
+  /* max-width: calc(1184*100%/1280); */
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width:1279px) {
-    .photo-grid {
-        /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-        grid-gap: 14px;
-        max-width: 928px;
-    }
+  .photo-grid {
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-gap: 14px;
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width:1023px) {
-    .photo-grid {
-        /* grid-template-columns: repeat(auto-fit, minmax(352px, 1fr)); */
-        margin: 0 auto 88px;
-        grid-gap: 16px;
-        max-width: 720px;
-    }
+  .photo-grid {
+    /* grid-template-columns: repeat(auto-fit, minmax(352px, 1fr)); */
+    margin: 0 auto 88px;
+    grid-gap: 16px;
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width:767px) {
-    .photo-grid {
-        /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
-        margin: 0 auto 64px;
-        grid-gap: 14px;
-        max-width: 352px;
-    }
+  .photo-grid {
+    /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
+    margin: 0 auto 64px;
+    grid-gap: 14px;
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width:424px) {
-    .photo-grid {
-        /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
-        grid-gap: 12px;
-        max-width: 288px;
-    }
+  .photo-grid {
+    /* grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); */
+    grid-gap: 12px;
+    max-width: 288px;
+  }
 }

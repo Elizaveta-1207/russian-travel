@@ -1,29 +1,29 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0 24px;
-    max-width: 1184px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 24px;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width:1279px) {
-    .footer {
-        padding: 0 4.7% 24px;
-    }
+  .footer {
+    padding: 0 4.7% 24px;
+  }
 }
 
 @media screen and (max-width:1023px) {
-    .footer {
-        padding: 0 3.1% 24px;
-    }
+  .footer {
+    padding: 0 3.1% 24px;
+  }
 }
 
 @media screen and (max-width:767px) {
-    .footer {
-        padding: 0 4.7% 24px;
-        flex-direction: column;
-        max-width: 400px;
-    }
+  .footer {
+    padding: 0 4.7% 24px;
+    flex-direction: column;
+    max-width: 400px;
+  }
 }

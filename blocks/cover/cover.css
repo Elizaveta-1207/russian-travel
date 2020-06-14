@@ -5,33 +5,34 @@
 
 
 .cover {
-    max-width: 1184px;
-    margin: 92px auto;
-    /* background-image: url("../../../images/cover-background.jpg"); */
-    /* background-size: cover; */
-    /* background-size: contain;
+  max-width: 1184px;
+  margin: 92px auto;
+  /* background-image: url("../../../images/cover-background.jpg"); */
+  /* background-size: cover; */
+  /* background-size: contain;
     background-repeat: no-repeat;
     background-position: center; */
 }
 
-.cover:hover .cover__overlay {
+/* .cover:hover .cover__overlay {
     opacity: 0.8;
-}
+} */
+
 
 @media screen and (max-width:1279px) {
-    .cover {
-        margin: 92px auto;
-    }
+  .cover {
+    margin: 92px auto;
+  }
 }
 
 @media screen and (max-width:1023px) {
-    .cover {
-        margin: 88px auto;
-    }
+  .cover {
+    margin: 88px auto;
+  }
 }
 
 @media screen and (max-width:767px) {
-    .cover {
-        margin: 64px auto;
-    }
+  .cover {
+    margin: 64px auto;
+  }
 }

@@ -1,26 +1,25 @@
 .nav__link {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    line-height: 1.13;
-    /* margin: 0 18px 0 0; */
-    transition: opacity 0.2s linear;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.13;
+  /* margin: 0 18px 0 0; */
+  transition: opacity 0.2s linear;
 }
 
 .nav__link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width:767px) {
-    .nav__link {
-        font-size: 28px;
-        line-height: 1;
-    }
+  .nav__link {
+    font-size: 28px;
+    line-height: 1;
+  }
 }
 
 @media screen and (max-width:423px) {
-    .nav__link {
-        font-size: 24px;
-        line-height: 1;
-    }
+  .nav__link {
+    font-size: 24px;
+  }
 }

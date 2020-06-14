@@ -3,7 +3,7 @@
 @import url(./__link/nav__link.css);
 
 @media screen and (max-width:767px) {
-    .nav {
-        margin-bottom: 48px;
-    }
+  .nav {
+    margin-bottom: 48px;
+  }
 }
