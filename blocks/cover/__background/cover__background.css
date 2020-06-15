@@ -16,6 +16,21 @@
   /*прописываю относительный паддинг для нашего контента внутри контейнера cover,
     чтобы расстояние от заголовка и подзаголовка было относительным и соответствовало макету*/
   padding: calc(245*100%/1184) 0;
+  /* z-index: 0; */
+}
+
+.cover__background::before {
+  content: '';
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+  transition: opacity 0.2s linear;
 }
 
 /* @media screen and (max-width:1279px) {
