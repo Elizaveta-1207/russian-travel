@@ -1,0 +1,13 @@
+.video__duration {
+  position: absolute;
+  bottom: 146px;
+  left: 30px;
+  height: 12px;
+  width: 44px;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}

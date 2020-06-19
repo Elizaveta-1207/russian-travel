@@ -1,0 +1,8 @@
+.video__icon-play {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 41px;
+  height: 41px;
+  transition: transform 0.2s ease-in-out;
+}
