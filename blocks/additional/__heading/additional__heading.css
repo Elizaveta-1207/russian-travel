@@ -1,0 +1,8 @@
+.additional__heading {
+  max-width: 248px;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 1.07;
+  /* margin: 0; */
+  margin: 0 0 calc(134*100%/248);
+}
