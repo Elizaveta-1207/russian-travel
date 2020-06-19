@@ -1,6 +1,13 @@
 .video__item {
-  width: 100%;
+  text-decoration: none;
+  /* width: 100%; */
+  max-width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  color: #fff;
+  padding: calc(165*100%/583) 30px calc(30*100%/583);
   /* border-radius: 10px; */
 }
 
@@ -18,6 +25,7 @@
   opacity: 0.5;
   transition: opacity 0.2s linear;
   /* transition: 0.5s; */
+  z-index: -1;
 }
 
 .video__item:hover::before {

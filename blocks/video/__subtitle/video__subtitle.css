@@ -1,11 +1,10 @@
 .video__subtitle {
-  position: absolute;
+  /* position: absolute;
   bottom: 30px;
-  left: 30px;
-  height: 13px;
-  width: 174px;
+  left: 30px; */
+  /* height: 13px;
+  width: 174px; */
   font-size: 14px;
   line-height: 1.07;
-  color: #fff;
   margin: 0;
 }
