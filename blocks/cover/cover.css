@@ -6,7 +6,7 @@
 
 .cover {
   max-width: 1184px;
-  margin: 92px auto;
+  margin: 0 auto 82px;
   /* background-image: url("../../../images/cover-background.jpg"); */
   /* background-size: cover; */
   /* background-size: contain;

@@ -1,0 +1,6 @@
+.comments__container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
