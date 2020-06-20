@@ -3,8 +3,8 @@
   color: #fff;
   background-image: url("../../../images/cover-background.jpg");
   background-size: cover;
-  /* background-size: contain;
-    background-repeat: no-repeat; */
+  /* background-size: contain; */
+  background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
   /* min-height: 740px; */
@@ -31,6 +31,10 @@
   height: 100%;
   /* z-index: -1; */
   transition: opacity 0.2s linear;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
 }
 
 /* @media screen and (max-width:1279px) {

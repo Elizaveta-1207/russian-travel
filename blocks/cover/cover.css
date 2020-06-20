@@ -14,11 +14,6 @@
     background-position: center; */
 }
 
-.cover:hover .cover__background::before {
-  opacity: 0.8;
-}
-
-
 /* @media screen and (max-width:1279px) {
   .cover {
     margin: 92px auto;

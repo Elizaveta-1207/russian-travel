@@ -26,11 +26,11 @@
 @media screen and (max-width:767px) {
   .content-title {
     font-size: 32px;
-    max-width: 343px;
+    max-width: 420px;
   }
 }
 
-@media screen and (max-width:374px) {
+@media screen and (max-width:424px) {
   .content-title {
     max-width: 288px;
   }

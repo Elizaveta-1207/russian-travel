@@ -1,3 +1,19 @@
 .comment__img {
   border-radius: 50%;
 }
+
+
+
+@media screen and (max-width:1023px) {
+  .comment__img {
+    order: 1;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* @media screen and (max-width:767px) {
+  .comment {
+    width: 100%
+  }
+} */
