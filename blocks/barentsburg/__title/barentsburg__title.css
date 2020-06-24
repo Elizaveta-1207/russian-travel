@@ -4,3 +4,21 @@
   line-height: 1.45;
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .barentsburg__title {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .barentsburg__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .barentsburg__title {
+    font-size: 28px;
+  }
+}

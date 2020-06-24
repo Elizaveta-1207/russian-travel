@@ -3,3 +3,29 @@
   line-height: 1.45;
   margin: 20px 0 48px;
 }
+
+@media screen and (max-width: 1023px) {
+  .barentsburg__coord {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .barentsburg__coord {
+    font-size: 28px;
+    margin-bottom: 30px;
+
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .barentsburg__coord {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+/* @media screen and (max-width: 374px) {
+  .barentsburg__coord {
+  }
+} */

@@ -1,4 +1,24 @@
 .barentsburg__container {
   display: flex;
   margin: 48px 0 0;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 1023px) {
+  .barentsburg__container {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .barentsburg__container {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .barentsburg__container {
+    margin-top: 25px;
+  }
 }

@@ -11,3 +11,27 @@
   margin: 85px auto 160px;
   max-width: 1184px;
 }
+
+@media screen and (max-width:1279px) {
+  .barentsburg {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .barentsburg {
+    margin-bottom: 85px;
+  }
+}
+
+/* @media screen and (max-width: 984px) {
+    .barentsburg {
+        max-width: 100%;
+    }
+} */
+
+/* @media screen and (max-width: 767px) {
+  .barentsburg {
+    margin-bottom: 64px;
+  }
+} */
