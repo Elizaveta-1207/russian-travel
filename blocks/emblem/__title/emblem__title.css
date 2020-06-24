@@ -17,11 +17,13 @@
     font-size: 32px;
     max-width: 330px;
     margin-bottom: 52px;
+    padding-left: 12px;
   }
 }
 
 @media screen and (max-width:424px) {
   .emblem__title {
     font-size: 28px;
+    padding-left: 0;
   }
 }
