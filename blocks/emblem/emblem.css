@@ -8,3 +8,27 @@
   max-width: 1184px;
   margin: 0 auto;
 }
+
+@media screen and (max-width:1279px) {
+  .emblem {
+    max-width: 920px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .emblem {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .emblem {
+    max-width: 417px;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .emblem {
+    max-width: 288px;
+  }
+}

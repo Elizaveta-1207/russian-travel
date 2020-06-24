@@ -1,3 +1,22 @@
 .emblem__item {
-  width: calc(208*100%/1184);
+  margin-right: 36px;
+  /* margin-top: 50px; */
+}
+
+@media screen and (max-width:1279px) {
+  .emblem__item {
+    margin-top: 50px;
+  }
+}
+
+/* @media screen and (max-width:1023px) {
+  .emblem__item {
+
+  }
+} */
+
+@media screen and (max-width:767px) {
+  .emblem__item {
+    margin-right: 0;
+  }
 }

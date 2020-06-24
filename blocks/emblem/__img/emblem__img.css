@@ -1,4 +1,10 @@
 .emblem__img {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 35px;
+}
+
+@media screen and (max-width:1279px) {
+  .emblem__img {
+    margin-bottom: 25px;
+  }
 }

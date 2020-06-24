@@ -1,9 +1,13 @@
 .emblem__city {
-  margin: 35px 0 0;
+  /* margin: 35px 0 0; */
+  /* margin: 35px auto 0; */
+  margin: 0 auto;
   text-align: center;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.08;
+
+  width: 208px;
 
 
   color: #CCCCCC;
