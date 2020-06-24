@@ -4,13 +4,13 @@
   margin: 0;
 
   display: flex;
-  /* justify-content: space-between; */
   justify-content: center;
   flex-wrap: wrap;
 
+  /* justify-content: space-between; */
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(208px, 1fr)); */
-  /* justify-content: space-between; */
+
 
   grid-row-gap: 45px;
 
@@ -37,10 +37,6 @@
     margin-right: 0;
 
   }
-
-  /* .emblem__container :last-child {
-    margin-right: 0;
-  } */
 
   .emblem__container :nth-of-type(-n+3) {
     margin-top: 0px;
