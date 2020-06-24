@@ -1,6 +1,18 @@
 .additional__text {
-  max-width: 248px;
+  width: 100%;
   font-size: 14px;
   line-height: 1.43;
   margin: 0;
+}
+
+@media screen and (max-width:1279px) {
+  .additional__text {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .additional__text {
+    font-size: 14px;
+  }
 }

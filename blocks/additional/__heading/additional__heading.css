@@ -1,8 +1,20 @@
 .additional__heading {
-  max-width: 248px;
+  width: 100%;
   font-weight: 900;
   font-size: 27px;
   line-height: 1.07;
   /* margin: 0; */
   margin: 0 0 calc(134*100%/248);
+}
+
+@media screen and (max-width:1279px) {
+  .additional__heading {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .additional__heading {
+    font-size: 27px;
+  }
 }

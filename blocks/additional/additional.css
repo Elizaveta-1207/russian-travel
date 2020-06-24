@@ -9,3 +9,28 @@
   margin: 0 auto;
   max-width: 1184px;
 }
+
+@media screen and (max-width:1279px) {
+  .additional {
+    max-width: 928px;
+    /* max-width: 720px; */
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .additional {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .additional {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width:374px) {
+  .additional {
+    max-width: 288px;
+  }
+}
